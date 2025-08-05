@@ -34,6 +34,11 @@ public class Expense {
     }
 
     public boolean isLargeExpense() {
-        return true;
+        return amount > 1000;
     }
+
+
+
 }
+
+
